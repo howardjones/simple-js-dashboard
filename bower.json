@@ -1,0 +1,19 @@
+{
+  "name": "jquery-dashboard",
+  "authors": [
+    "howardjones <howie@thingy.com>"
+  ],
+  "description": "Simple dashboard for reloading page sections from external sources",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

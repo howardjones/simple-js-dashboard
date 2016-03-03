@@ -1,0 +1,20 @@
+<html>
+<head>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery.timers/jquery.timers.min.js"></script>
+  <script src="dashboard.js"></script>
+  <style>
+    .reloadable { position: absolute; border: 2px solid red;}
+    #map { left: 30; top:30; z-index: 10;}
+    #graph1 {left: 100; top: 100; z-index: 20;}
+    #graph2 {left: 200; top: 100; z-index: 20;}
+    #clock {left: 200; top: 200; z-index: 20;}
+  </style>
+</head>
+<body>
+  <div class="reloadable" id="graph1"  data-refresh="10"></div>
+  <div class="reloadable" id="graph2" data-url="" ></div>
+  <div class="reloadable" id="clock" data-url="http://www.ikea.com/gb/en/images/products/rusch-wall-clock-white__0248447_PE092339_S4.JPG" data-refresh="2"></div>
+  <div class="reloadable" id="map" data-url="http://network-weathermap.com/files/slide-cacti-integ.png" data-refresh="500"></div>
+</body>
+</html>
