@@ -7,14 +7,16 @@
     .reloadable { position: absolute; border: 2px solid red;}
     #map { left: 30; top:30; z-index: 10;}
     #graph1 {left: 100; top: 100; z-index: 20;}
-    #graph2 {left: 200; top: 100; z-index: 20;}
+    #graph2 {left: 300; top: 100; z-index: 20;}
     #clock {left: 200; top: 200; z-index: 20;}
   </style>
 </head>
 <body>
-  <div class="reloadable" id="graph1"  data-refresh="10"></div>
-  <div class="reloadable" id="graph2" data-url="" ></div>
-  <div class="reloadable" id="clock" data-url="http://www.ikea.com/gb/en/images/products/rusch-wall-clock-white__0248447_PE092339_S4.JPG" data-refresh="2"></div>
-  <div class="reloadable" id="map" data-url="http://network-weathermap.com/files/slide-cacti-integ.png" data-refresh="500"></div>
+
+  <div class="reloadable" id="graph2" data-refresh="3s" data-url="test-content.html" >This one has text</div>
+
+  <img class="reloadable" id="graph1" src="test2.png" data-refresh="10s" />
+  <img class="reloadable" id="clock" src="test1.png" data-refresh="2s" />
+  <img class="reloadable" src="test-map.png" id="map" data-refresh="3s" />
 </body>
 </html>
