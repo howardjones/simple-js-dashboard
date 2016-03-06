@@ -4,7 +4,7 @@
   <script src="bower_components/jquery.timers/jquery.timers.min.js"></script>
   <script src="dashboard.js"></script>
   <style>
-    .reloadable { position: absolute; border: 2px solid red;}
+    .reloadable { position: absolute;}
     #map { left: 30; top:30; z-index: 10;}
     #graph1 {left: 100; top: 100; z-index: 20;}
     #graph2 {left: 300; top: 100; z-index: 20;}
@@ -13,10 +13,10 @@
 </head>
 <body>
 
-  <div class="reloadable" id="graph2" data-refresh="3s" data-url="test-content.html" >This one has text</div>
+  <div class="reloadable" id="graph2" data-refresh="3s" data-url="demo/test-content.html" >This one has text</div>
 
-  <img class="reloadable" id="graph1" src="test2.png" data-refresh="10s" />
-  <img class="reloadable" id="clock" src="test1.png" data-refresh="2s" />
-  <img class="reloadable" src="test-map.png" id="map" data-refresh="3s" />
+  <img class="reloadable" id="graph1" src="demo/test2.png" data-refresh="10s" />
+  <img class="reloadable" id="clock" src="demo/test1.png" data-refresh="2s" />
+  <img class="reloadable" src="demo/weathermap-example.png" id="map" data-refresh="3s" />
 </body>
 </html>
